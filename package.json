@@ -1,0 +1,31 @@
+{
+  "name": "job-sapp",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "@material-ui/core": "^4.12.3",
+    "cron": "^1.8.2",
+    "crone": "^0.0.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.2",
+    "node-fetch": "^3.1.0",
+    "redis": "^4.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JakubPluta/job-sapp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JakubPluta/job-sapp/issues"
+  },
+  "homepage": "https://github.com/JakubPluta/job-sapp#readme"
+}
