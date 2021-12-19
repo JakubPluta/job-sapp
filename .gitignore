@@ -128,3 +128,5 @@ dmypy.json
 # Pyre type checker
 .pyre/
 /.env
+/node_modules
+/jobs-client/node_modules
