@@ -25,8 +25,11 @@ function App() {
 
     return (
     <div>
+
+    
       <Jobs jobs={jobsList} />
     </div>
+
   );
 }
 

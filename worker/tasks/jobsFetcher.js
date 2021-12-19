@@ -45,7 +45,7 @@ async function fetchOnePage(page) {
             source: element['source'],
             description: element['text'],
             logo: element['logo'],
-
+            url: element['url'],
         }
         jobs_array.push(job)
         
