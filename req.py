@@ -4,7 +4,7 @@ import json
 import os
 from requests.models import HTTPError 
 
-API_KEY = os.getenv('FINDWORK_API_KEY') or "812c1fb7d44f4aaf943ff1e10c0a8e68753f0d6e"
+API_KEY = os.getenv('FINDWORK_API_KEY')
 
 def extract_page_number(url):
     try:
